@@ -41,9 +41,7 @@ function validateMessage() {
 }
 
 // Event Listeners
-submit.addEventListener('click', function(e) {
-  e.preventDefault();
-  
+submit.addEventListener('click', function() {
   validateName(fullName);
   validateEmail(email);
   validateMessage(message);
