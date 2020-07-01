@@ -14,7 +14,7 @@ email.addEventListener('blur', validateEmail);
 message.addEventListener('blur', validateMessage);
 
 function validateName() {
-  const re = /^[a-zA-Z]{2,}(?: [a-zA-Z]+){0,2}$/;
+  const re = /^[a-zA-Z]{2,35}(?: [a-zA-Z]+){0,2}$/;
   if(!re.test(fullName.value)) {
     nameInvalid.style.display = 'block';
   } else {
