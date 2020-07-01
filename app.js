@@ -13,10 +13,8 @@ fullName.addEventListener('blur', validateName);
 email.addEventListener('blur', validateEmail);
 message.addEventListener('blur', validateMessage);
 
-// submit.addEventListener('click', checkInput);
-
 function validateName() {
-  const re = /^[A-Za-z]{2,20}$/;
+  const re = /^[a-zA-Z]{2,}(?: [a-zA-Z]+){0,2}$/;
   if(!re.test(fullName.value)) {
     nameInvalid.style.display = 'block';
   } else {
@@ -41,7 +39,6 @@ function validateMessage() {
     messageInvalid.style.display = 'none';
   }
 }
-
 
 // Event Listeners
 form.addEventListener('submit', function(e) {
