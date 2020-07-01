@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/4b6f36aabf.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?v=2">
+  <title>Ryan Hughes | Portfolio</title>
+</head>
+<body>
+  <div class="container">
+
+    <section class="me-section">
+      <div class="profile-pic">
+        <img src="img/profilePictureScaled.jpeg" alt="">
+      </div>
+      <div class="my-name bg-white">
+        <h1>Ryan <span>Hughes</span></h1>
+      </div>
+      <div class="social">
+        <div class="social-icons">
+          <a href="https://linkedin.com/in/ryan-hughes-jp" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="https://github.com/ryan-hughes97?tab=repositories" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+          <!-- <i class="fas fa-file-download fa-2x"></i> -->
+        </div>
+        <div class="email">
+          <p>ryan.hughes.jp@gmail.com</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="welcome-section bg-white">
+      <h1>I build <span class="description">professional</span>, responsive websites.</h1>
+      <p>I am a self-taught <span class="title">Front-End Web Developer</span>. I strive for modern design and responsiveness across devices.</p>
+    </section>
+    
+    <section class="project-section">
+      <h2>My Projects</h2>
+      <div class="projects">
+        <a href="https://tender-wescoff-9669b5.netlify.app" target="_blank">
+          <div class="project grow">
+            <img src="img/animeMangaSiteHalf.png" alt="Profile Picture" class="normal">
+            <img src="img/animeMangaSite.png" alt="Profile Picture" class="mobile-image">
+            <div class="project-title bg-white">
+              <h3>Anime & Manga Tracker</h3>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </div>
+        </a>
+        <a href="https://distracted-thompson-ce6ec0.netlify.app" target="_blank">
+          <div class="project grow">
+            <img src="img/vlterFashionSiteHalf.png" alt="" class="normal">
+            <img src="img/vlterFashionSite.png" alt="" class="mobile-image">
+            <div class="project-title bg-white">
+              <h3>Brand Landing Page</h3>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </div>
+        </a>
+        <a href="https://xenodochial-mirzakhani-e25225.netlify.app" target="_blank">
+          <div class="project grow">
+            <img src="img/lichessProfileFinderHalf.png" alt="" class="normal">
+            <img src="img/lichessProfileFinder.png" alt="" class="mobile-image">
+            <div class="project-title bg-white">
+              <h3>Profile Finder</h3>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Fetch&nbsp;API </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="skills-section">
+      <h2>Skills</h2>
+      <div class="skill-icons bg-white">
+        <div class="javascript">
+          <i class="fab fa-js fa-4x"></i>
+          <h3>Javascript</h3>
+        </div>
+        <div class="css">
+          <i class="fab fa-css3 alt fa-4x"></i>
+          <h3>CSS3</h3>
+        </div>
+        <div class="html">
+          <i class="fab fa-html5 fa-4x"></i>
+          <h3>HTML5</h3>
+        </div>
+        <div class="sass">
+          <i class="fab fa-sass fa-4x"></i>
+          <h3>SASS</h3>
+        </div>
+        <div class="git">
+          <i class="fab fa-git-alt fa-4x"></i>
+          <h3>Git</h3>
+        </div>
+      </div>
+    </section>
+
+    <!--Only shows up for mobile width 500px and below-->
+    <section class="skills-section-mobile">
+      <h2>Skills</h2>
+      <div class="skill-icons bg-white">
+        <div class="javascript">
+          <i class="fab fa-js fa-2x"></i>
+          <h5>Javascript</h5>
+        </div>
+        <div class="css">
+          <i class="fab fa-css3 alt fa-2x"></i>
+          <h5>CSS3</h5>
+        </div>
+        <div class="html">
+          <i class="fab fa-html5 fa-2x"></i>
+          <h5>HTML5</h5>
+        </div>
+        <div class="sass">
+          <i class="fab fa-sass fa-2x"></i>
+          <h5>SASS</h5>
+        </div>
+        <div class="git">
+          <i class="fab fa-git-alt fa-2x"></i>
+          <h5>Git</h5>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact Form-->
+    <section class="form-section">
+      <h2>Contact</h2>
+      <form name="contact" method="POST" data-netlify="true" id="form" class="form bg-white">
+        <p class="form-container">Interested in working together? Fill out the form below!</p>
+        <div class="form-container">
+          <div class="form-control">
+            <input type="text" name="name" id="name" placeholder="Name">
+          </div>
+          <div class="form-control">
+            <input type="text" name="email" id="email" placeholder="Email">
+          </div>
+          <div class="form-control">
+            <textarea name="message" id="message" cols="35" rows="6" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <div class="social-mobile">
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://github.com/ryan-hughes97?tab=repositories" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+        <!-- <i class="fas fa-file-download fa-2x"></i> -->
+      </div>
+      <div class="email">
+        <p>ryan.hughes.jp@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2020</p>
+  </footer> 
+  
+</body>
+</html>
