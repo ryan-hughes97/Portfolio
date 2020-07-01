@@ -43,6 +43,10 @@ function validateMessage() {
 // Event Listeners
 submit.addEventListener('click', function(e) {
   if(name.value === '' || email.value === '' || message.value === '') {
+    validateName(fullName);
+    validateEmail(email);
+    validateMessage(message);
+
     e.preventDefault();
   }
 });
