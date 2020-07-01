@@ -267,6 +267,12 @@ textarea:focus {
   border-top-right-radius: 3px;
 }
 
+#name-invalid, #email-invalid, #message-invalid {
+  display: none;
+  color: red;
+  font-size: 1rem;
+}
+
 button[type='submit'] {
   margin: 0 auto;
   display: block;
@@ -282,6 +288,10 @@ button[type='submit'] {
 
 button[type='submit']:hover {
   background: #0265cf;
+}
+
+button[type='submit']:focus {
+  outline: 0;
 }
 
 .social-mobile { display: none; }
